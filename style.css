@@ -86,7 +86,7 @@ body{
     background-repeat: no-repeat;
     border-radius: 16px;
     background-size: cover;
-    margin: 50px 230px 0px 230px;
+    margin: 120px 230px 0px 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,6 +139,68 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 68px 100px 67px 0px;
+
+}
+/* party section style end  */
+
+
+/* event-details section style start  */
+
+.event-content{
+    width: 1350px;
+    height: 600px; 
+    background: rgba(240, 195, 195, 0.74);
+    background: linear-gradient(183deg,rgba(240, 195, 195, 0.74) 0%, #f3ece9 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px 230px 0px 230px;
+}
+.event-details ,span{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.place{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.date{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.time{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.btn button{
+    background-color: #F00;
+    border-radius: 8px;
+    border: 0;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 64px;
 
 
 }
