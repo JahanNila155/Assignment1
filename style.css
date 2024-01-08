@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     width: 1600px;
     height: 7335px;
     background: #FFF;
@@ -441,23 +441,20 @@ body{
     height: 609;
     background: #070211;
     margin-top: 120px;
-    /* margin: 120px 0px 0px 0px; */
 }
 .footer-content{
     display: flex;
-    gap: 360px;
-    padding: 120px 290px 0px 290px;
+    gap: 570px;
+    padding: 120px 140px 0px 140px;
+  
 }
-/* .address{
-    width: 400px;
-    height: 80px;
-} */
-.address{
+.address p{
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    line-height: 40px; 
+    line-height: 40px;     
+
 }
 .contact{
     display: inline;
@@ -468,7 +465,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    line-height: 40px; 
+    line-height: 40px;
     
 }
 .contact img{
@@ -486,7 +483,7 @@ hr{
    justify-content: center;  
 }
 .icon{
-    margin: 48px 24px;
+    /* margin: 48px 24px; */
 }
 .icon img{
     width: 64px;
@@ -498,7 +495,7 @@ hr{
     padding: 50px 140px 120px 140px;
 }
 .info-left{
-    /* width: 295px; */
+    width: 295px; 
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -511,3 +508,4 @@ hr{
     font-size: 24px;
     font-weight: 500;
 }
+/* footer section style end  */
