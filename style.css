@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    width: 1600px;
+    height: 7335px;
 }
 /* header style start  */
 .banner{
@@ -204,7 +206,7 @@ body{
 }
 /* event-details section style end  */
 
-/* best-offer section start */
+/* best-offer section style start */
 .best-offer{
     width: 1350px;
     height: 600px; 
@@ -287,4 +289,63 @@ body{
 .happy-img{
     width: 140px;
     height: 140px;
+}
+/* best-offer section style end */
+
+/* holiday-sale section style start  */
+.holiday-sale{
+    width: 1350px;
+    height: 800px; 
+    background: #FFF;
+    margin: 120px 230px 0px 230px;
+
+}
+
+/* gifts section style start  */
+.best-gift{
+    width: 1350px;
+    height: 800px; 
+    background: #FFF;
+    margin: 120px 230px 0px 230px;
+
+}
+/* .gift-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+} */
+.gift-caption{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.gift-title{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.gift-details{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.gift-img{
+   /* / display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    margin: 0px 20px;
+
+}
+.img-one .img-two .img-three .img-four .img-five .img-six{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    
 }
