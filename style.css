@@ -204,6 +204,17 @@ body{
     gap: 10px;
     margin-top: 64px;
 }
+ button:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    
+  
+}
 /* event-details section style end  */
 
 /* best-offer section style start */
@@ -339,14 +350,21 @@ body{
 .gift-content-two{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+
+    
 } 
 .gift-content-two img{
+    display: flex;
     width: 424px;
     height: 450px;
     border-radius: 16px;
-    display: block;
     margin:48px 24px 0px 24px;
+
+    
+}
+.gift-content-two img:hover{
+    border: 2px solid gray;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.267);
 
 }
 /* .gift-images{
@@ -483,7 +501,7 @@ hr{
    justify-content: center;  
 }
 .icon{
-    /* margin: 48px 24px; */
+    margin: 48px 24px;
 }
 .icon img{
     width: 64px;
