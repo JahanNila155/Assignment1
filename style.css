@@ -3,6 +3,7 @@ body{
     padding: 0;
     width: 1600px;
     height: 7335px;
+    background: #FFF;
 }
 /* header style start  */
 .banner{
@@ -18,7 +19,6 @@ body{
     align-items: center;
     flex-direction: column;
     margin: 50px 230px 0px 230px;
-
 }
 .new-year-wish{
     color: #FFF;
@@ -152,8 +152,8 @@ body{
 .event-content{
     width: 1350px;
     height: 600px; 
-    background: rgba(240, 195, 195, 0.74);
-    background: linear-gradient(183deg,rgba(240, 195, 195, 0.74) 0%, #f3ece9 80%);
+    background: rgba(248, 218, 218, 0.685);
+    background: linear-gradient(183deg,rgba(248, 195, 195, 0.685) 0%, #f3ece9 80%); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,7 +209,7 @@ body{
 /* best-offer section style start */
 .best-offer{
     width: 1350px;
-    height: 600px; 
+    height: auto; 
     background: #FFF;
     margin: 120px 230px 0px 230px;
 
@@ -304,17 +304,17 @@ body{
 /* gifts section style start  */
 .best-gift{
     width: 1350px;
-    height: 800px; 
+    height: auto; 
     background: #FFF;
     margin: 120px 230px 0px 230px;
 
 }
-.gift-content{
+ /* .gift-content-one{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 
-}
+} */
 .gift-caption{
     color: #F00;
     font-family: 'Inter', sans-serif;
@@ -336,7 +336,20 @@ body{
     font-weight: 400;
     line-height: 32px;
 }
-.gift-images{
+.gift-content-two{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.gift-content-two img{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    display: block;
+    margin:48px 24px 0px 24px;
+
+}
+/* .gift-images{
     margin-top: 48px;
 }
 .gift-images img{
@@ -344,5 +357,81 @@ body{
     height: 450px;
     border-radius: 16px;
 
-}
+}  */
 
+/* gifts section style end  */
+
+
+/* newsletter section style start */
+.newsletter{
+    width: 1350px;
+    height: 600px; 
+    background: rgba(240, 195, 195, 0.74);
+    background: linear-gradient(183deg,rgba(240, 195, 195, 0.74) 0%, #f3ece9 80%);
+    margin: 120px 230px 0px 230px;
+}
+.newsletter-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.email-icon img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+
+}
+.newsletter-title{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.newsletter-details{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 32px;  
+    /* /* margin-top: 22px; */
+
+}
+.subscription-bar input{
+    width: 438px;
+    height: 72px;
+    background: #FFF;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    margin: 0px 48px 80px 0px;
+
+}
+ input[type="text"]{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;  
+    font-weight: 400;
+    padding: 25px 300px 25px 30px;
+}
+ .subscribe{
+    width: 210px;
+    height: 72px;
+    background: #F00;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+
+  
+}
+ #subscribe-text{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+
+}
