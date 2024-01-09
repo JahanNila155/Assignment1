@@ -92,6 +92,7 @@ body{
     margin: 120px 140px 0px 140px;
     /* margin: 120px 230px 0px 230px; */
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -100,6 +101,7 @@ body{
 }
 .party-img{
     width: 318px;
+    padding-right:130px;
 }
 .party-title{
     width: 642px;
@@ -163,36 +165,35 @@ body{
     flex-direction: column;
     margin: 120px 140px 0px 140px;
 }
+.event-details{
+         margin: 0 auto;
+
+} 
 .event-details ,span{
     color: #F00;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 56px;
 }
-.place{
+.event-text{
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 56px;
+
 }
-.date{
-    color: #070211;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 40px;
+.btn{
+     margin-top: 64px;
+    margin-bottom: 110px;
+
 }
-.time{
-    color: #070211;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 40px;
-}
+
 .btn button{
+    width: 167px;
+    height: 56px;
     background-color: #F00;
     border-radius: 8px;
     border: 0;
@@ -203,9 +204,8 @@ body{
     padding: 16px 32px;
     display: inline-flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 64px;
+    align-items: center;   
+   
 }
  /* button:hover{
     background-color: white;
@@ -376,6 +376,7 @@ body{
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    
     
     /* margin: 60px 286px 65px 0px; */
     
