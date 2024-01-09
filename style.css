@@ -18,7 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px 230px 0px 230px;
+    margin: 50px 140px 0px 140px;
 }
 .new-year-wish{
     color: #FFF;
@@ -55,7 +55,8 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
-    margin-top: 120px; 
+    /* margin-top: 120px; */
+    margin: 120px 140px 0px 140px; 
 }
 .offer-type{
     color: #F00;
@@ -88,7 +89,8 @@ body{
     background-repeat: no-repeat;
     border-radius: 16px;
     background-size: cover;
-    margin: 120px 230px 0px 230px;
+    margin: 120px 140px 0px 140px;
+    /* margin: 120px 230px 0px 230px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,11 +156,12 @@ body{
     height: 600px; 
     background: rgba(248, 218, 218, 0.685);
     background: linear-gradient(183deg,rgba(248, 195, 195, 0.685) 0%, #f3ece9 80%); 
+    border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 120px 230px 0px 230px;
+    margin: 120px 140px 0px 140px;
 }
 .event-details ,span{
     color: #F00;
@@ -222,7 +225,7 @@ body{
     width: 1350px;
     height: auto; 
     background: #FFF;
-    margin: 120px 230px 0px 230px;
+    margin: 120px 140px 0px 140px;
 
 }
 .best-offer-content{
@@ -308,7 +311,7 @@ body{
     width: 1350px;
     height: auto; 
     background: #FFF;
-    margin: 120px 230px 0px 230px;
+    margin: 120px 140px 0px 140px;
 
 }
 
@@ -401,7 +404,7 @@ body{
     width: 1350px;
     height: auto; 
     background: #FFF;
-    margin: 120px 230px 0px 230px;
+    margin: 120px 140px 0px 140px;
 
 }
  /* .gift-content-one{
@@ -431,22 +434,31 @@ body{
     font-weight: 400;
     line-height: 32px;
 }
-.gift-content-two{
+/* .gift-content-two{
     display: flex;
     flex-direction: row;
 
     
-} 
+}  */
 .gift-content-two img{
     display: flex;
+    justify-content: space-around;
     width: 424px;
     height: 450px;
     border-radius: 16px;
-    margin:48px 24px 0px 24px;
-
-    
+    margin:48px 0px 24px 24px;
+   
 }
-.gift-content-two img:hover{
+.gift-content-one img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    /* margin:48px 24px ; */
+   
+}
+.gift-img-one.gift-img-two img:hover{
     border: 2px solid gray;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.267);
 
@@ -468,9 +480,10 @@ body{
 .newsletter{
     width: 1350px;
     height: 600px; 
+    border-radius: 16px;
     background: rgba(240, 195, 195, 0.74);
     background: linear-gradient(183deg,rgba(240, 195, 195, 0.74) 0%, #f3ece9 80%);
-    margin: 120px 230px 0px 230px;
+    margin: 120px 140px 0px 140px;
 }
 .newsletter-content{
     display: flex;
@@ -498,17 +511,20 @@ body{
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    line-height: 32px;  
+    line-height: 32px; 
+    margin-top: 22px; 
 
 }
+/* .subscription-bar{
+    margin-bottom: 104px;
+    
+} */
 .subscription-bar input{
     width: 438px;
     height: 72px;
     background: #FFF;
     border-radius: 50px 0px 0px 50px;
     border: none;
-    margin: 0px 48px 80px 0px;
-
 }
  input[type="text"]{
     color: rgba(7, 2, 17, 0.30);
@@ -516,27 +532,23 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 18px;  
     font-weight: 400;
-    margin: 25px 300px 25px 30px;
+   
 }
- .subscribe{
+#subscribe-button{
     width: 210px;
     height: 72px;
     background: #F00;
-    border-radius: 0px 50px 50px 0px;
-    border: none;
-    margin: 25px 300px 25px 30px;
-
-  
-}
-#subscribe-tex{
     color: #FFF;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    margin-bottom: 104px;}
 
-}
+/* newsletter section style end  */
 
 /* footer section style start  */
 .footer{
@@ -544,6 +556,7 @@ body{
     height: 609;
     background: #070211;
     margin-top: 120px;
+    margin: 120px 0px 0px 0px;
 }
 .footer-content{
     display: flex;
